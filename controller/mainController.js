@@ -6,7 +6,7 @@ exports.create= asyncHandler(async(req,res)=>{
  try {
   const data = req.body;
 
-  const info = await BasicSchema.create(data,req.imageUrl);
+  const info = await BasicSchema.create(data);
 
   res.json({
     info

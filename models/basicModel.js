@@ -25,7 +25,7 @@ const BasicSchema = new mongoose.Schema({
 
 })
 
-module.exports = mongoose.model('Schema',BasicSchema);
+module.exports = mongoose.model('vehicle_data',BasicSchema);
 
  
 
